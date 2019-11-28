@@ -19,6 +19,7 @@ module "dc1" {
   IP                = var.IP_dc1
   join_wan          = var.join_wan
   token             = var.token
+  pass              = var.pass
 }
 
 output "ami" {
