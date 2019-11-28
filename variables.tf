@@ -53,3 +53,7 @@ variable "token" {
   description = "Token for getting remote state"
 }
 
+variable "pass" {
+  description = "password for redis"
+}
+
